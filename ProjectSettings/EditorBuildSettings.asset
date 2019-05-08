@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b22d1044b475c954084c9d926fe79282
+  - enabled: 1
+    path: Assets/Scenes/BreakRoom.unity
+    guid: 79ac166b9ad7865438ebf8e1df850025
+  - enabled: 1
+    path: Assets/Scenes/SandboxScene.unity
+    guid: e42a354fdf3e7134fac43a0c9d14cf72
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2a52eea7d3ff6a64cbbc3acb7ade523d
+  - enabled: 1
+    path: Assets/Scenes/Hallways.unity
+    guid: f9a82d34de9b5c843afe64c574e68edd
+  - enabled: 1
+    path: Assets/Scenes/GeneratorRoom.unity
+    guid: 04c6c2e87a5b94a46a8eca458c875959
+  - enabled: 1
+    path: Assets/Scenes/FreezerRoom.unity
+    guid: 62da4ed33a4d34644be3239238c17797
+  - enabled: 1
+    path: Assets/Scenes/ManagerOffice.unity
+    guid: 031ddfb722e3d484b909b4edaff87546
+  m_configObjects: {}
