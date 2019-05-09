@@ -8,6 +8,7 @@ public class GameManagerScript : MonoBehaviour
     private string playerRoom;
     private bool isPlayerHiding;
     private int puzzleLevel = 1;
+    private bool enemySpawned = false;
     public GameObject AISpawnPoint;
     public GameObject AIPrefab;
 
@@ -31,15 +32,19 @@ public class GameManagerScript : MonoBehaviour
 
     public void SpawnAI()
     {
-        Instantiate(AIPrefab, AISpawnPoint.transform.position, AISpawnPoint.transform.rotation);
+        if (!enemySpawned)
+        {
+            Instantiate(AIPrefab, AISpawnPoint.transform.position, AISpawnPoint.transform.rotation);
+            enemySpawned = true;
+        }
+        else
+        {
+            return;
+        }
     }
 
-    //DELETE THIS
-    private void Update()
+    public void ChangeLevel()
     {
-        if (Input.GetKeyDown("tab"))
-        {
-            SpawnAI();
-        }
+        enemySpawned = false;
     }
 }

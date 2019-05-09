@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class DoorScript : MonoBehaviour
 {
     public string sceneToLoad;
+    private GameManagerScript gameManager;
+
+    private void Start()
+    {
+        gameManager = GameObject.Find("GameManger").GetComponent<GameManagerScript>();
+    }
 
     public void OnTriggerStay(Collider collider)
     {
@@ -13,6 +19,7 @@ public class DoorScript : MonoBehaviour
         {
             if (Input.GetKeyDown("space"))
             {
+                gameManager.ChangeLevel();
                 SceneManager.LoadScene(sceneToLoad);
             }
         }
