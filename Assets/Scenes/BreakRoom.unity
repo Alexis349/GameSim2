@@ -843,7 +843,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33186
+  m_Name: pb_Mesh13958
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1069,6 +1069,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1902114048}
+    - target: {fileID: 2378829643313835250, guid: caa0b125e9b93794b875863099eb42c3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1902114048}
     - target: {fileID: 2378829643313835249, guid: caa0b125e9b93794b875863099eb42c3,
         type: 3}
       propertyPath: m_Faces.Array.data[0].m_TextureGroup
@@ -1149,11 +1154,6 @@ PrefabInstance:
       propertyPath: m_Textures0.Array.data[35].x
       value: 1.1067972
       objectReference: {fileID: 0}
-    - target: {fileID: 2378829643313835250, guid: caa0b125e9b93794b875863099eb42c3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 1902114048}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa0b125e9b93794b875863099eb42c3, type: 3}
 --- !u!1001 &695069670
@@ -2150,7 +2150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836782787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.789313, y: 2, z: -3}
+  m_LocalPosition: {x: 6.5, y: 2, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2391,7 +2391,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh36778
+  m_Name: pb_Mesh14004
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3885,6 +3885,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 463113505}
+    - target: {fileID: 2378829643313835250, guid: caa0b125e9b93794b875863099eb42c3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 463113505}
     - target: {fileID: 2378829643313835249, guid: caa0b125e9b93794b875863099eb42c3,
         type: 3}
       propertyPath: m_Faces.Array.data[0].m_TextureGroup
@@ -3965,11 +3970,6 @@ PrefabInstance:
       propertyPath: m_Textures0.Array.data[35].x
       value: 1.1067972
       objectReference: {fileID: 0}
-    - target: {fileID: 2378829643313835250, guid: caa0b125e9b93794b875863099eb42c3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 463113505}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa0b125e9b93794b875863099eb42c3, type: 3}
 --- !u!43 &1902114048
