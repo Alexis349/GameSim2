@@ -9,15 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: b22d1044b475c954084c9d926fe79282
   - enabled: 1
-    path: Assets/Scenes/SandboxScene.unity
-    guid: e42a354fdf3e7134fac43a0c9d14cf72
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2a52eea7d3ff6a64cbbc3acb7ade523d
+    path: Assets/Scenes/BreakRoom.unity
+    guid: 79ac166b9ad7865438ebf8e1df850025
   - enabled: 1
     path: Assets/Scenes/Hallways.unity
     guid: f9a82d34de9b5c843afe64c574e68edd
   - enabled: 1
+    path: Assets/Scenes/SandboxScene.unity
+    guid: e42a354fdf3e7134fac43a0c9d14cf72
+  - enabled: 1
+    path: Assets/Scenes/Bathroom.unity
+    guid: f5344e15de681214d85b00712b56771a
+  - enabled: 1
+    path: Assets/Scenes/FreezerRoom.unity
+    guid: b997ac8c5ca1a94489b34c6535d146ec
+  - enabled: 1
+    path: Assets/Scenes/GeneratorRoom.unity
+    guid: 04c6c2e87a5b94a46a8eca458c875959
+  - enabled: 1
+    path: Assets/Scenes/SlaughterRoom.unity
+    guid: 46dfba20929b63945a234a731c7743ae
+  - enabled: 0
     path: Assets/Scenes/ManagerOffice.unity
     guid: 031ddfb722e3d484b909b4edaff87546
   m_configObjects: {}

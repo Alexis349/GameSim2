@@ -20,6 +20,7 @@ public class DoorScript : MonoBehaviour
             if (Input.GetKeyDown("space"))
             {
                 gameManager.ChangeLevel();
+                //gameManager.SetSpawnPoint(sceneToLoad);
                 SceneManager.LoadScene(sceneToLoad);
             }
         }

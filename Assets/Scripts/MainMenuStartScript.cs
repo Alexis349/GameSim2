@@ -7,6 +7,6 @@ public class MainMenuStartScript : MonoBehaviour
 {
     public void ChangeScene()
     {
-        SceneManager.LoadScene("SandboxScene");
+        SceneManager.LoadScene("BreakRoom");
     }
 }
