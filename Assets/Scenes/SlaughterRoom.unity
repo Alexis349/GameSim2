@@ -4354,6 +4354,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 167508215}
+    - target: {fileID: 7628463478478049340, guid: a563ccd01e23f5d40b891f8ae721a9be,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: LoadingDock
+      objectReference: {fileID: 0}
     - target: {fileID: 7628463477976920687, guid: a563ccd01e23f5d40b891f8ae721a9be,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6377,7 +6382,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-80146
+  m_Name: pb_Mesh-13058
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

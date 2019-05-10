@@ -29,7 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SlaughterRoom.unity
     guid: 46dfba20929b63945a234a731c7743ae
+  - enabled: 1
+    path: Assets/Scenes/LoadingDock.unity
+    guid: 8aaf86bef45bf594682fe54a96cfb5f5
   - enabled: 0
-    path: Assets/Scenes/ManagerOffice.unity
-    guid: 031ddfb722e3d484b909b4edaff87546
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
