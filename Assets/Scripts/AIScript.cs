@@ -15,7 +15,7 @@ public class AIScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        target = GameObject.Find("Player").transform;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         agent.SetDestination(target.position);
     }
 }

@@ -11,6 +11,7 @@ public class GameManagerScript : MonoBehaviour
     private string playerRoom = "MainMenu";
     private bool isPlayerHiding = false;
     private bool enemySpawned = false;
+    private bool puzzleComplete = false;
 
     public GameObject AISpawnPoint;
     public GameObject AIPrefab;
@@ -82,11 +83,7 @@ public class GameManagerScript : MonoBehaviour
             }
             else
             {
-                //need to decide of we want spawnpoints for the monster in the hallways
-                //downside is, this could run a lot and reduce performance
-                //setAISpawnPoint();
-                //this will keep the players previous room to use as the spawnpoint
-                //allows spawn points to work properly in the hallway map
+                setAISpawnPoint();
             }
         }
         
@@ -95,10 +92,25 @@ public class GameManagerScript : MonoBehaviour
         {
             print("We have a player");
         }
-        else
+        else if (!isPlayerHiding)
         {
             SpawnPlayer();
         }
         print(playerRoom);
+    }
+
+    public void updatePlayerHide(bool status)
+    {
+        isPlayerHiding = status;
+    }
+
+    public void UpdatePuzzleStatus()
+    {
+        puzzleComplete = true;
+    }
+
+    public bool PuzzleComplete()
+    {
+        return puzzleComplete;
     }
 }
