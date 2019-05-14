@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 706788677148908703}
   - component: {fileID: 7441796831101672633}
   - component: {fileID: 1037787672213653312}
+  - component: {fileID: 1615619652895180552}
   m_Layer: 0
   m_Name: AIGameObject
   m_TagString: Enemy
@@ -81,7 +82,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 280ef50b475e2cb4ead7844ae3659942, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f3aa7c9c1edd79e47a398333fb6c188c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -96,7 +97,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -127,7 +128,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.12
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -223,7 +224,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.16
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -263,6 +264,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1615619652895180552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647384814267072078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &6884247159846004498
 GameObject:
   m_ObjectHideFlags: 0

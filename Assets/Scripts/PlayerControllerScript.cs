@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerScript : MonoBehaviour
 {
@@ -41,5 +42,13 @@ public class PlayerControllerScript : MonoBehaviour
         moveDirection.y = moveDirection.y - (gravity * Time.deltaTime);
         //moves character through the move function in the charactercontroller class?
         controller.Move(moveDirection * Time.deltaTime);
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.collider.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 }
