@@ -50,6 +50,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            GameObject.Find("GameManger").GetComponent<GameManagerScript>().ResetPuzzle();
             SceneManager.LoadScene("MainMenu");
         }
     }

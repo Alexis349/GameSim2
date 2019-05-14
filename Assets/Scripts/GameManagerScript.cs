@@ -128,7 +128,7 @@ public class GameManagerScript : MonoBehaviour
                 musicIsPlaying = true;
                 AudioSource panicMusic = GameObject.FindGameObjectWithTag("MainCamera").AddComponent<AudioSource>();
                 panicMusic.clip = Resources.Load<AudioClip>("Audio/SFX/panic_music");
-                panicMusic.volume = 0.5f;
+                panicMusic.volume = 0.3f;
                 panicMusic.loop = true;
                 panicMusic.Play();
             }
@@ -165,5 +165,11 @@ public class GameManagerScript : MonoBehaviour
     public bool IsEnemySpawned()
     {
         return enemySpawned;
+    }
+
+    public void ResetPuzzle()
+    {
+        isGeneratorOn = false;
+        puzzleComplete = false;
     }
 }
