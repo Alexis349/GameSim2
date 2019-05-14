@@ -9,10 +9,12 @@ public class TrapScript : MonoBehaviour
     private int state = 0;
     private float spawnTimer = 5.0f;
     private GameManagerScript gameManager;
+    private AudioSource audio;
 
     void Start()
     {
         gameManager = GameObject.Find("GameManger").GetComponent<GameManagerScript>();
+        audio = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,6 +43,10 @@ public class TrapScript : MonoBehaviour
         {
             state = 1;
             print("Player entered trap");
+            if (!GameObject.Find("GameManger").GetComponent<GameManagerScript>().IsEnemySpawned())
+            {
+                audio.Play();
+            }
         }
     }
 
