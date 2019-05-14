@@ -48,6 +48,8 @@ public class PlayerControllerScript : MonoBehaviour
     {
         if (hit.collider.gameObject.tag == "Enemy")
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene("MainMenu");
         }
     }

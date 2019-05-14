@@ -9,4 +9,9 @@ public class MainMenuStartScript : MonoBehaviour
     {
         SceneManager.LoadScene("BreakRoom");
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
